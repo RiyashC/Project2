@@ -1,0 +1,178 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(data:image/jpeg;base64,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);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.builder {
+    padding: 27px 100px;
+}
+
+.container {
+    padding: 10px 30px;
+    background: rgb(187, 170, 170);
+    border-radius: 10px;
+    height: auto;
+    width: 60%;
+    margin: auto;
+}
+
+.container h1 {
+    text-align: center;
+    background-color: rgb(88, 73, 228);
+    padding: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    background-color: transparent;
+    margin: 10px 0;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    display: block;
+    width: 100%;
+}
+
+button {
+    border: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 7px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    font-size: medium;
+}
+
+.output-container {
+    display: none;
+    width: 60%;
+    margin: 10px auto;
+}
+
+.output {
+    background-color: white;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.heading {
+    padding: 20px 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(50, 50, 50);
+    text-transform: uppercase;
+}
+
+.heading h4 {
+    color: rgb(200, 200, 200);
+    padding-top: 9px;
+}
+
+.info {
+    display: flex;
+    padding: 20px;
+}
+
+.left {
+    width: 40%;
+    border-right: 2px dashed black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.right {
+    width: 60%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.box {
+    margin: 10px 0;
+    padding: 5px 10px;
+    height: auto;
+    overflow-wrap: break-word;
+}
+
+.box h2,
+.box p {
+    margin-bottom: 5px;
+}
+
+.tip {
+    font-size: small;
+    color: gray;
+    text-align: center;
+}
+
+.credit {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 3px;
+    color: rgb(80, 80, 80);
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(247, 28, 12);
+    font-weight: bold;
+}
+
+/* media queries begin */
+@media screen and (max-width: 920px) {
+    .container {
+        width: 100%;
+    }
+
+    .output-container {
+        width: 87%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .resume-builder {
+        padding: 10px 30px;
+    }
+
+    h1 {
+        font-size: 160%;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .left {
+        border-right: none;
+        width: 100%;
+    }
+
+    .right {
+        padding-left: 0;
+        width: 100%;
+    }
+}
